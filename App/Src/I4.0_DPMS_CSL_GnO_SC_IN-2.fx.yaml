@@ -1,0 +1,434 @@
+"'I4.0_DPMS_CSL_GnO_SC_IN-2' As screen":
+    Fill: =RGBA(226, 223, 218, 1)
+    OnVisible: |
+        =Set(varOverView,true);
+        Set(varActionDashbaord,false);
+        Set(varIssueDashboard,false);
+        Set(varInsightDashboad,false);
+
+    Button1_64 As button:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        Fill: =RGBA(226, 223, 218, 1)
+        HoverFill: =ColorFade(RGBA(255, 99, 71, 1), -20%)
+        OnSelect: |
+            =Set(varOverView,true);
+            Set(varActionDashbaord,false);
+            Set(varIssueDashboard,false);
+            Set(varInsightDashboad,false);
+        Text: ="Overview"
+        Width: =130
+        X: =26
+        Y: =127
+        ZIndex: =1
+
+    Button1_65 As button:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        Fill: =RGBA(226, 223, 218, 1)
+        HoverFill: =ColorFade(RGBA(255, 99, 71, 1), -20%)
+        OnSelect: |
+            =Set(varOverView,false);
+            Set(varActionDashbaord,true);
+            Set(varIssueDashboard,false);
+            Set(varInsightDashboad,false);
+        Text: ="Action Dashboard"
+        Width: =195
+        X: =186
+        Y: =127
+        ZIndex: =2
+
+    Button1_66 As button:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        Fill: =RGBA(226, 223, 218, 1)
+        HoverFill: =ColorFade(RGBA(255, 99, 71, 1), -20%)
+        OnSelect: |
+            =Set(varOverView,false);
+            Set(varActionDashbaord,false);
+            Set(varIssueDashboard,true);
+            Set(varInsightDashboad,false);
+        Text: ="Issue Dashboard"
+        Width: =195
+        X: =416
+        Y: =127
+        ZIndex: =3
+
+    Button1_67 As button:
+        AutoDisableOnSelect: =false
+        BorderColor: =RGBA(0, 0, 0, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        Fill: =RGBA(226, 223, 218, 1)
+        HoverFill: =ColorFade(RGBA(255, 99, 71, 1), -20%)
+        OnSelect: |
+            =Set(varOverView,false);
+            Set(varActionDashbaord,false);
+            Set(varIssueDashboard,false);
+            Set(varInsightDashboad,true);
+        Text: ="Insight Dashboard"
+        Width: =195
+        X: =646
+        Y: =127
+        ZIndex: =4
+
+    Rectangle4_16 As rectangle:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        BorderThickness: =2
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =569
+        Width: =1277
+        X: =34
+        Y: =177
+        ZIndex: =5
+
+    Canvas2_17 As fluidGrid.fluidGridWithBlankCard:
+        BorderThickness: =0
+        Height: =590
+        Width: =Parent.Width
+        Y: =178
+        ZIndex: =6
+
+        DataCard3_17 As dataCard:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderStyle: =BorderStyle.Solid
+            BorderThickness: =0
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =Parent.Height - 100
+            Width: =Parent.Width
+            X: =0
+            Y: =0
+            ZIndex: =1
+
+            Rectangle3_32 As rectangle:
+                BorderColor: =RGBA(0, 0, 0, 1)
+                BorderThickness: =2
+                Fill: =RGBA(0, 0, 0, 0)
+                Height: =450
+                Width: =1181
+                X: =53
+                Y: =40
+                ZIndex: =1
+
+            Label9_1 As label:
+                Align: =Align.Center
+                Color: =RGBA(0, 121, 187, 1)
+                FontWeight: =FontWeight.Semibold
+                Height: =31
+                Size: =14
+                Text: ="Home"
+                Underline: =true
+                Width: =82
+                X: =58
+                Y: =49
+                ZIndex: =13
+
+            Group3 As group:
+                Height: =5
+                Width: =5
+                X: =9
+                Y: =-171
+                ZIndex: =13
+
+                Rectangle5_2 As rectangle:
+                    BorderColor: =RGBA(0, 0, 0, 1)
+                    BorderThickness: =3
+                    Fill: =RGBA(0, 0, 0, 0)
+                    Height: =80
+                    Width: =1146
+                    X: =69
+                    Y: =85
+                    ZIndex: =2
+
+                Label3_18 As label:
+                    Align: =Align.Center
+                    BorderColor: =RGBA(0, 0, 0, 1)
+                    BorderThickness: =3
+                    FontWeight: =FontWeight.Bold
+                    Height: =33
+                    Text: ="Focus Area"
+                    Width: =211
+                    X: =69
+                    Y: =85
+                    ZIndex: =3
+
+                Label3_19 As label:
+                    Align: =Align.Center
+                    BorderColor: =RGBA(0, 0, 0, 1)
+                    BorderThickness: =3
+                    FontWeight: =FontWeight.Bold
+                    Height: =33
+                    Text: ="Objective ID"
+                    Width: =217
+                    X: =998
+                    Y: =85
+                    ZIndex: =4
+
+                Label3_20 As label:
+                    Align: =Align.Center
+                    BorderColor: =RGBA(0, 0, 0, 1)
+                    BorderThickness: =3
+                    FontWeight: =FontWeight.Bold
+                    Height: =33
+                    Text: ="Action Date"
+                    Width: =208
+                    X: =789
+                    Y: =85
+                    ZIndex: =5
+
+                Label3_21 As label:
+                    Align: =Align.Center
+                    BorderColor: =RGBA(0, 0, 0, 1)
+                    BorderThickness: =3
+                    FontWeight: =FontWeight.Bold
+                    Height: =33
+                    Text: ="Focus Line"
+                    Width: =223
+                    X: =280
+                    Y: =85
+                    ZIndex: =6
+
+                Label3_22 As label:
+                    Align: =Align.Center
+                    BorderColor: =RGBA(0, 0, 0, 1)
+                    BorderThickness: =3
+                    FontWeight: =FontWeight.Bold
+                    Height: =33
+                    Text: ="Objective Target Date"
+                    Width: =286
+                    X: =505
+                    Y: =85
+                    ZIndex: =7
+
+                Label5_7 As label:
+                    Align: =Align.Center
+                    BorderThickness: =3
+                    Height: =48
+                    Size: =14
+                    Text: ="SAFETY"
+                    Width: =211
+                    X: =69
+                    Y: =118
+                    ZIndex: =8
+
+                Label5_8 As label:
+                    Align: =Align.Center
+                    BorderThickness: =3
+                    Height: =47
+                    Size: =14
+                    Text: ="FA01FL02ML01AC-001"
+                    Width: =208
+                    X: =789
+                    Y: =118
+                    ZIndex: =9
+
+                Label5_9 As label:
+                    Align: =Align.Center
+                    BorderThickness: =3
+                    Height: =47
+                    Size: =14
+                    Text: ="March 2023"
+                    Width: =285
+                    X: =505
+                    Y: =118
+                    ZIndex: =10
+
+                Label5_10 As label:
+                    Align: =Align.Center
+                    BorderThickness: =3
+                    Height: =48
+                    Size: =14
+                    Text: ="Significant Safety Issue"
+                    Width: =223
+                    X: =280
+                    Y: =118
+                    ZIndex: =11
+
+                Label5_11 As label:
+                    Align: =Align.Center
+                    BorderThickness: =3
+                    Height: =47
+                    Size: =14
+                    Text: ="FA01FL02ML01"
+                    Width: =217
+                    X: =998
+                    Y: =119
+                    ZIndex: =12
+
+            Label9_2 As label:
+                Align: =Align.Center
+                FontWeight: =FontWeight.Semibold
+                Height: =26
+                Size: =14
+                Text: ="Create Action"
+                X: =136
+                Y: =54
+                ZIndex: =14
+
+            Icon1_1 As icon.ChevronRight:
+                Height: =24
+                Icon: =Icon.ChevronRight
+                Width: =15
+                X: =134
+                Y: =55
+                ZIndex: =15
+
+            TextInput1_7 As text:
+                BorderColor: =RGBA(179, 179, 179, 1)
+                BorderThickness: =3
+                Default: ="Text input"
+                Font: =Font.'Lato Light'
+                FontWeight: =FontWeight.Lighter
+                Height: =72
+                Mode: =TextMode.MultiLine
+                Size: =11
+                Width: =535
+                X: =76
+                Y: =213
+                ZIndex: =16
+
+            TextInput1_8 As text:
+                BorderColor: =RGBA(179, 179, 179, 1)
+                BorderThickness: =3
+                Default: ="Text input"
+                Font: =Font.'Lato Light'
+                FontWeight: =FontWeight.Lighter
+                Height: =72
+                Mode: =TextMode.MultiLine
+                Size: =11
+                Width: =535
+                X: =654
+                Y: =213
+                ZIndex: =17
+
+            Label7_15 As label:
+                DisplayMode: =DisplayMode.Disabled
+                Font: =Font.'Patrick Hand'
+                FontWeight: =FontWeight.Bold
+                Height: =34
+                Size: =14
+                Text: ="Issue Description"
+                Width: =218
+                X: =69
+                Y: =172
+                ZIndex: =18
+
+            Label7_17 As label:
+                DisplayMode: =DisplayMode.Disabled
+                Font: =Font.'Patrick Hand'
+                FontWeight: =FontWeight.Bold
+                Height: =34
+                Size: =14
+                Text: ="Objective Description"
+                Width: =218
+                X: =652
+                Y: =172
+                ZIndex: =19
+
+            TextInput1_9 As text:
+                BorderColor: =RGBA(0, 0, 0, 1)
+                BorderThickness: =3
+                Default: ="Text input"
+                Font: =Font.'Lato Light'
+                FontWeight: =FontWeight.Bold
+                Height: =72
+                Mode: =TextMode.MultiLine
+                Width: =633
+                X: =76
+                Y: =341
+                ZIndex: =20
+
+            Label7_18 As label:
+                DisplayMode: =DisplayMode.View
+                Font: =Font.'Patrick Hand'
+                FontWeight: =FontWeight.Bold
+                Height: =36
+                Size: =14
+                Text: ="Action Description"
+                Width: =218
+                X: =69
+                Y: =297
+                ZIndex: =21
+
+            Label7_19 As label:
+                Align: =Align.Center
+                DisplayMode: =DisplayMode.View
+                Font: =Font.'Patrick Hand'
+                FontWeight: =FontWeight.Bold
+                Height: =31
+                Size: =15
+                Text: ="Action Status"
+                Width: =141
+                X: =774
+                Y: =328
+                ZIndex: =22
+
+            Label7_20 As label:
+                DisplayMode: =DisplayMode.View
+                Font: =Font.'Patrick Hand'
+                FontWeight: =FontWeight.Bold
+                Height: =31
+                Size: =15
+                Text: ="Action Owner"
+                Width: =141
+                X: =997
+                Y: =328
+                ZIndex: =23
+
+            Dropdown2_1 As dropdown:
+                ChevronBackground: =RGBA(0, 0, 0, 1)
+                Height: =29
+                Items: =DropDownSample
+                Width: =107
+                X: =799
+                Y: =368
+                ZIndex: =24
+
+            Dropdown2_2 As dropdown:
+                ChevronBackground: =RGBA(0, 0, 0, 1)
+                Height: =27
+                Items: =DropDownSample
+                Width: =107
+                X: =998
+                Y: =370
+                ZIndex: =25
+
+            Label8_1 As label:
+                Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                BorderThickness: =4
+                FontWeight: =FontWeight.Bold
+                Height: =38
+                Size: =19
+                Text: ="Cancel"
+                Width: =130
+                X: =925
+                Y: =437
+                ZIndex: =26
+
+            Label8_2 As label:
+                Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 1)
+                BorderThickness: =4
+                FontWeight: =FontWeight.Bold
+                Height: =38
+                Size: =19
+                Text: ="Create"
+                Width: =130
+                X: =1093
+                Y: =437
+                ZIndex: =27
+
+    "'Nav_bar_horizontal comp_21' As 'Nav_bar_horizontal comp'":
+        Y: =71
+        ZIndex: =8
+
+    "'I4.0_DPMS_CSL_XXX_F_2' As 'I4.0_DPMS_CSL_XXX_F'":
+        Height: =22
+        Y: =746
+        ZIndex: =9
+
+    "'I4.0_DPMS_CSL_XXX_H_2' As 'I4.0_DPMS_CSL_XXX_H'":
+        Height: =71
+        ZIndex: =10
+

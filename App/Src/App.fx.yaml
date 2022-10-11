@@ -1,0 +1,174 @@
+App As appinfo:
+    BackEnabled: =false
+    OnStart: |
+        =ClearCollect(
+            colHorizontalMenu,
+            {
+                Title: "Executive",
+                Screen: Blank(),
+                Id: 1,
+                ParentTab: ""
+            },
+            {
+                Title: "KPI",
+                Screen: Blank(),
+                Id: 2,
+                ParentTab: ""
+            },
+            {
+                Title: "Overview",
+                Screen: 'KPI OVERVIEW',
+                Id: 2,
+                ParentTab: "KPI"
+            },
+            {
+                Title: "Safety",
+                Screen: 'KPI OVERVIEW',
+                Id: 2,
+                ParentTab: "KPI"
+            },
+            {
+                Title: "Quality",
+                Screen: 'KPI OVERVIEW',
+                Id: 2,
+                ParentTab: "KPI"
+            },
+            {
+                Title: "Performance",
+                Screen: 'KPI OVERVIEW',
+                Id: 2,
+                ParentTab: "KPI"
+            },
+            {
+                Title: "Cost",
+                Screen: 'KPI OVERVIEW',
+                Id: 2,
+                ParentTab: "KPI"
+            },
+            {
+                Title: "Shedule",
+                Screen: 'KPI OVERVIEW',
+                Id: 2,
+                ParentTab: "KPI"
+            },
+            {
+                Title: "People",
+                Screen: 'KPI OVERVIEW',
+                Id: 2,
+                ParentTab: "KPI"
+            },
+            {
+                Title: "Goals Objective",
+                Screen: Blank(),
+                Id: 3,
+                ParentTab: ""
+            },
+            {
+                Title: "Overview",
+                Screen: Page3,
+                Id: 3,
+                ParentTab: "Goals Objective"
+            },
+            {
+                Title: "Objective",
+                Screen: 'Executive Summary',
+                Id: 3,
+                ParentTab: "Goals Objective"
+            },
+            {
+                Title: "Issue",
+                Screen: 'Executive Summary',
+                Id: 3,
+                ParentTab: "Goals Objective"
+            },
+            {
+                Title: "Action",
+                Screen: 'Executive Summary',
+                Id: 3,
+                ParentTab: "Goals Objective"
+            },
+            {
+                Title: "Insights",
+                Screen: 'Executive Summary',
+                Id: 3,
+                ParentTab: "Goals Objective"
+            },
+            {
+                Title: "Configure",
+                Screen: 'Executive Summary',
+                Id: 3,
+                ParentTab: "Goals Objective"
+            },
+            {
+                Title: "BI Report",
+                Screen: Blank(),
+                Id: 4,
+                ParentTab: ""
+            },
+            {
+                Title: "Configure",
+                Screen: Blank(),
+                Id: 5,
+                ParentTab: ""
+            }
+        );
+        Set(
+            varMenuPrimaryColor,
+            RGBA(
+                58,
+                55,
+                46,
+                100
+            )
+        );
+        Set(
+            varMenuSecondaryColor,
+            RGBA(
+                242,
+                19,
+                19,
+                1
+            )
+        );
+        Set(
+            varTabSelected,
+            0
+        );
+    StartScreen: |-
+        =ClearCollect(colHorizontalMenu,
+        
+        {Title:"Executive",Screen:Blank(), Id:1, ParentTab: ""},
+        {Title:"Overview",Screen:Dashboard, Id:1, ParentTab: "Executive"},
+        {Title:"Action",Screen:Dashboard_Action, Id:1, ParentTab: "Executive"},
+        {Title:"Issue",Screen:Dashboard_Issue, Id:1, ParentTab: "Executive"},
+        {Title:"Insight",Screen:Dashboard_Insight, Id:1, ParentTab: "Executive"},
+        
+        {Title:"KPI",Screen:Blank(), Id:2, ParentTab: ""},
+        {Title:"Overview",Screen:'KPI OVERVIEW', Id:2, ParentTab: "KPI"},
+        {Title:"Safety",Screen:KP, Id:2, ParentTab: "KPI"},
+        {Title:"Quality",Screen:KPI_Quality, Id:2, ParentTab: "KPI"},
+        {Title:"Performance",Screen:Page1, Id:2, ParentTab: "KPI"},
+        {Title:"Cost",Screen:Page2, Id:2, ParentTab: "KPI"},
+        {Title:"Shedule",Screen:KPI_Shedule, Id:2, ParentTab: "KPI"},
+        {Title:"People",Screen:KPI_People, Id:2, ParentTab: "KPI"},
+        
+        {Title:"Goals_Objective",Screen:Blank(), Id:3, ParentTab: ""},
+        {Title:"Overview",Screen:Page3, Id:3, ParentTab: "Goals_Objective"},
+        {Title:"Objective",Screen:Page4, Id:3, ParentTab: "Goals_Objective"},
+        {Title:"Issue",Screen:Create_issue, Id:3, ParentTab: "Goals_Objective"},
+        {Title:"Action",Screen:'Executive Summary', Id:3, ParentTab: "Goals_Objective"},
+        {Title:"Insights",Screen:'Executive Summary', Id:3, ParentTab: "Goals_Objective"},
+        {Title:"Configure",Screen:'Executive Summary', Id:3, ParentTab: "Goals_Objective"},
+        
+        {Title:"BI_Report",Screen:Blank(), Id:4, ParentTab: ""},
+        {Title:"Report 1",Screen:'BI REPORT1', Id:4, ParentTab: "BI_Report"},
+        {Title:"Report 2",Screen:'BI REPORT2', Id:4, ParentTab: "BI_Report"},
+        
+        {Title:"Configure",Screen:'Executive Summary', Id:5, ParentTab: ""}
+        );
+        
+        Set(varMenuPrimaryColor, RGBA(4, 42, 61, 1));
+        Set(varMenuSecondaryColor, RGBA(4, 166, 235, 1));
+        
+        Set(varTabSelected, 0);
+

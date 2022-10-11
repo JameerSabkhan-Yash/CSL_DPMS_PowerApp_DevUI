@@ -1,0 +1,394 @@
+"Page6 As screen.'phoneLayout_FluidGridWithHeaderPageLayout_ver3.0'":
+
+    RectQuickActionBar1_14 As rectangle:
+        Height: =76
+        Width: =Parent.Width
+        ZIndex: =1
+
+    LblAppName1_14 As label:
+        Align: =Align.Center
+        Height: =76
+        Text: ="[Title]"
+        Width: =Parent.Width
+        ZIndex: =2
+
+    Canvas1_14 As fluidGrid.fluidGridWithBlankCard:
+        BorderThickness: =0
+        Height: =620
+        Width: =Parent.Width
+        Y: =147
+        ZIndex: =3
+
+        DataCard1_14 As dataCard:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderStyle: =BorderStyle.Solid
+            BorderThickness: =0
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(226, 223, 218, 1)
+            Height: =692
+            Width: =1366
+            X: =0
+            Y: =0
+            ZIndex: =1
+
+            Rectangle3_14 As rectangle:
+                BorderColor: =RGBA(149, 149, 149, 1)
+                BorderThickness: =1
+                Fill: =RGBA(0, 0, 0, 0)
+                Height: =614
+                Width: =1272
+                X: =40
+                Y: =60
+                ZIndex: =1
+
+            LineChart1_11 As lineChart:
+                Font: =Font.'Open Sans'
+                Height: =413
+                Items: =LineChartSample
+                Width: =601
+                X: =691
+                Y: =116
+                ZIndex: =2
+
+            ColumnChart1_11 As barChart:
+                Height: =489
+                Items: =ColumnChartSample
+                Width: =620
+                X: =40
+                Y: =40
+                ZIndex: =3
+
+            Button5 As button:
+                Fill: =RGBA(255, 0, 0, 1)
+                HoverFill: =ColorFade(RGBA(255, 0, 0, 100), -20%)
+                OnSelect: =Set(varShowPopup, true);
+                Text: ="Update Issue"
+                X: =1100
+                Y: =609
+                ZIndex: =4
+
+    Rectangle1_38 As rectangle:
+        Fill: =RGBA(202, 202, 202, 1)
+        Height: =76
+        Width: =1366
+        ZIndex: =4
+
+    Image1_15 As image:
+        Height: =76
+        Image: ='MicrosoftTeams-image (2)'
+        Width: =119
+        X: =28
+        ZIndex: =5
+
+    Label1_22 As label:
+        Align: =Align.Center
+        Font: =Font.'Lato Black'
+        Height: =76
+        Size: =30
+        Text: ="Digital Performance Management System"
+        Width: =1219
+        X: =73
+        ZIndex: =6
+
+    Rectangle1_39 As rectangle:
+        Fill: =RGBA(226, 223, 218, 1)
+        Height: =46
+        Width: =1366
+        Y: =123
+        ZIndex: =7
+
+    Dropdown1_30 As dropdown:
+        BorderColor: =RGBA(166, 166, 166, 1)
+        ChevronBackground: =RGBA(149, 149, 149, 1)
+        ChevronHoverBackground: =ColorFade(RGBA(242, 19, 19, 1), -20%)
+        Fill: =RGBA(219, 219, 219, 1)
+        Height: =26
+        Items: =Friday_Demolist
+        SelectionFill: =RGBA(242, 19, 19, 1)
+        Width: =170
+        X: =1180
+        Y: =12
+        ZIndex: =8
+
+    Label2_13 As label:
+        FontWeight: =FontWeight.Semibold
+        Height: =22
+        Text: ="Admin"
+        Width: =137
+        X: =1182
+        Y: =46
+        ZIndex: =9
+
+    Label3_13 As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Semibold
+        Height: =41
+        Size: =15
+        Text: =App.ActiveScreen.Name
+        Width: =388
+        X: =27
+        Y: =131
+        ZIndex: =10
+
+    DatePicker1_15 As datepicker:
+        BorderColor: =RGBA(116, 116, 116, 1)
+        Fill: =RGBA(219, 219, 219, 1)
+        Height: =30
+        IconBackground: =RGBA(149, 149, 149, 1)
+        Width: =265
+        X: =671
+        Y: =139
+        ZIndex: =14
+
+    Dropdown1_31 As dropdown:
+        BorderColor: =RGBA(128, 128, 128, 1)
+        ChevronBackground: =RGBA(149, 149, 149, 1)
+        ChevronHoverBackground: =ColorFade(RGBA(242, 19, 19, 1), -20%)
+        Fill: =RGBA(219, 219, 219, 1)
+        Height: =30
+        HoverColor: =RGBA(242, 19, 19, 1)
+        Items: =Friday_Demolist
+        SelectionFill: =RGBA(242, 19, 19, 1)
+        Width: =246
+        X: =936
+        Y: =139
+        ZIndex: =15
+
+    Button1_15 As button:
+        Color: =RGBA(237, 237, 237, 1)
+        Fill: =RGBA(255, 0, 0, 1)
+        Height: =20
+        HoverFill: =ColorFade(RGBA(242, 19, 19, 1), -20%)
+        RadiusBottomLeft: =5
+        RadiusBottomRight: =5
+        RadiusTopLeft: =5
+        RadiusTopRight: =5
+        Size: =10
+        Text: ="Search"
+        Width: =88
+        X: =1240
+        Y: =147
+        ZIndex: =16
+
+    "'Nav_bar_horizontal comp_14' As 'Nav_bar_horizontal comp'":
+        Y: =77
+        ZIndex: =17
+
+    GroupPopUp As group:
+        Height: =5
+        Width: =5
+        X: =60
+        Y: =60
+        ZIndex: =30
+
+        Rectangle8 As rectangle:
+            Fill: =RGBA(149, 149, 149, 0.85)
+            Height: =428
+            Visible: =varShowPopup
+            Width: =1288
+            X: =40
+            Y: =244
+            ZIndex: =18
+
+        DataTable1_1 As dataTable.datatable:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderStyle: =BorderStyle.Solid
+            Color: =RGBA(202, 202, 202, 1)
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(255, 255, 255, 1)
+            HeadingFill: =RGBA(255, 0, 0, 1)
+            Height: =80
+            Items: =Friday_Demolist_1
+            Visible: =varShowPopup
+            Width: =1219
+            X: =73
+            Y: =290
+            ZIndex: =19
+
+            Title_Column1_1 As dataTableColumn.textualColumn:
+                DisplayMode: =DisplayMode.Edit
+                FieldDisplayName: ="Title"
+                FieldName: ="Title"
+                FieldVariantName: ="textualColumn"
+                Height: =Parent.Height
+                LayoutHeight: =Parent.Height
+                Order: =1
+                Text: =ThisItem.Title
+                Width: =100
+                X: =0
+                Y: =0
+                ZIndex: =2
+
+            Name_Column1_1 As dataTableColumn.textualColumn:
+                DisplayMode: =DisplayMode.Edit
+                FieldDisplayName: ="Name"
+                FieldName: ="Name"
+                FieldVariantName: ="textualColumn"
+                Height: =Parent.Height
+                LayoutHeight: =Parent.Height
+                Order: =2
+                Text: =ThisItem.Name
+                Width: =100
+                X: =0
+                Y: =0
+                ZIndex: =3
+
+            Email_Column1_1 As dataTableColumn.textualColumn:
+                DisplayMode: =DisplayMode.Edit
+                FieldDisplayName: ="Email"
+                FieldName: ="Email"
+                FieldVariantName: ="textualColumn"
+                Height: =Parent.Height
+                LayoutHeight: =Parent.Height
+                Order: =3
+                Text: =ThisItem.Email
+                Width: =100
+                X: =0
+                Y: =0
+                ZIndex: =4
+
+            percentage_Column1_1 As dataTableColumn.textualColumn:
+                DisplayMode: =DisplayMode.Edit
+                FieldDisplayName: ="percentage"
+                FieldName: ="percentage"
+                FieldVariantName: ="textualColumn"
+                Height: =Parent.Height
+                LayoutHeight: =Parent.Height
+                Order: =4
+                Text: =ThisItem.percentage
+                Width: =100
+                X: =0
+                Y: =0
+                ZIndex: =5
+
+            "'Select Year_Column1_1' As dataTableColumn.textualColumn":
+                DisplayMode: =DisplayMode.Edit
+                FieldDisplayName: ="Select Year"
+                FieldName: ="SelectYear"
+                FieldVariantName: ="textualColumn"
+                Height: =Parent.Height
+                LayoutHeight: =Parent.Height
+                Order: =5
+                Text: =ThisItem.'Select Year'
+                Width: =100
+                X: =0
+                Y: =0
+                ZIndex: =6
+
+            Level_Column1_1 As dataTableColumn.textualColumn:
+                DisplayMode: =DisplayMode.Edit
+                FieldDisplayName: ="Level"
+                FieldName: ="Level"
+                FieldVariantName: ="textualColumn"
+                Height: =Parent.Height
+                IsHyperlink: =false
+                LayoutHeight: =Parent.Height
+                Order: =6
+                Text: =ThisItem.Level
+                Width: =100
+                X: =0
+                Y: =0
+                ZIndex: =7
+
+        Label17_1 As label:
+            FontWeight: =FontWeight.Bold
+            Height: =38
+            Size: =15
+            Text: ="Update Issue"
+            Visible: =varShowPopup
+            Width: =166
+            X: =72
+            Y: =252
+            ZIndex: =20
+
+        Label18_3 As label:
+            FontWeight: =FontWeight.Bold
+            Text: ="Mitigation Plan"
+            Visible: =varShowPopup
+            X: =72
+            Y: =390
+            ZIndex: =21
+
+        Label18_4 As label:
+            FontWeight: =FontWeight.Bold
+            Text: ="Comments"
+            Visible: =varShowPopup
+            X: =725
+            Y: =390
+            ZIndex: =22
+
+        TextInput4_2 As text:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            Default: =""
+            Height: =138
+            HoverBorderColor: =RGBA(0, 0, 0, 1)
+            Visible: =varShowPopup
+            Width: =567
+            X: =72
+            Y: =437
+            ZIndex: =23
+
+        TextInput4_3 As text:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            Default: =""
+            Height: =138
+            HintText: ="Enter comments..."
+            HoverBorderColor: =RGBA(0, 0, 0, 1)
+            Visible: =varShowPopup
+            Width: =567
+            X: =725
+            Y: =437
+            ZIndex: =24
+
+        Label18_5 As label:
+            FontWeight: =FontWeight.Bold
+            Text: ="Issue Status"
+            Visible: =varShowPopup
+            X: =88
+            Y: =617
+            ZIndex: =25
+
+        Dropdown6_1 As dropdown:
+            BorderColor: =RGBA(255, 0, 0, 1)
+            ChevronBackground: =RGBA(255, 0, 0, 1)
+            ChevronHoverBackground: =ColorFade(RGBA(255, 0, 0, 100), -20%)
+            Height: =28
+            HoverColor: =RGBA(255, 0, 0, 1)
+            Items: =DropDownSample
+            PressedFill: =RGBA(255, 0, 0, 1)
+            Visible: =varShowPopup
+            Width: =114
+            X: =226
+            Y: =620
+            ZIndex: =26
+
+        Checkbox2_1 As checkbox:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            CheckboxBorderColor: =RGBA(0, 0, 0, 1)
+            Height: =38
+            Text: ="Escalate issue"
+            Visible: =varShowPopup
+            Width: =178
+            X: =371
+            Y: =610
+            ZIndex: =27
+
+        Button5_2 As button:
+            Fill: =RGBA(255, 0, 0, 1)
+            HoverFill: =ColorFade(RGBA(255, 0, 0, 100), -20%)
+            Text: ="Update"
+            Visible: =varShowPopup
+            X: =1135
+            Y: =608
+            ZIndex: =28
+
+        Button6_1 As button:
+            Fill: =RGBA(255, 0, 0, 1)
+            HoverFill: =ColorFade(RGBA(255, 0, 0, 100), -20%)
+            OnSelect: =Set(varShowPopup, false);
+            Text: ="Cancel"
+            Visible: =varShowPopup
+            X: =955
+            Y: =608
+            ZIndex: =29
+

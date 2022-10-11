@@ -1,0 +1,534 @@
+"Page3 As screen.'phoneLayout_FluidGridWithHeaderPageLayout_ver3.0'":
+
+    Canvas2 As fluidGrid.fluidGridWithBlankCard:
+        BorderThickness: =0
+        Height: =Parent.Height - Self.Y
+        Width: =Parent.Width
+        Y: =RectQuickActionBar2.Y + RectQuickActionBar2.Height
+        ZIndex: =1
+
+        DataCard4 As dataCard:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderStyle: =BorderStyle.Solid
+            BorderThickness: =0
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(226, 223, 218, 1)
+            Height: =629
+            Width: =Parent.Width
+            X: =0
+            Y: =0
+            ZIndex: =1
+
+            LineChart1_9 As lineChart:
+                Font: =Font.'Open Sans'
+                Height: =413
+                Items: =LineChartSample
+                Width: =601
+                X: =691
+                Y: =166
+                ZIndex: =6
+
+            ColumnChart1_9 As barChart:
+                Height: =489
+                Items: =ColumnChartSample
+                Width: =620
+                X: =40
+                Y: =90
+                ZIndex: =7
+
+            Rectangle6 As rectangle:
+                BorderColor: =RGBA(149, 149, 149, 1)
+                BorderThickness: =2
+                Fill: =RGBA(0, 0, 0, 0)
+                Height: =488
+                Width: =1303
+                X: =24
+                Y: =123
+                ZIndex: =8
+
+            Label18 As label:
+                Color: =RGBA(0, 0, 0, 0.8)
+                Fill: =RGBA(226, 223, 218, 1)
+                FontWeight: =FontWeight.Semibold
+                Height: =47
+                Text: ="Summary"
+                Width: =95
+                X: =60
+                Y: =100
+                ZIndex: =9
+
+        DataCard5 As dataCard.blankCard:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderStyle: =BorderStyle.Solid
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(226, 223, 218, 1)
+            Height: =446
+            Width: =1366
+            X: =0
+            Y: =1
+            ZIndex: =2
+
+            Rectangle6_1 As rectangle:
+                BorderColor: =RGBA(149, 149, 149, 1)
+                BorderThickness: =2
+                Fill: =RGBA(0, 0, 0, 0)
+                Height: =384
+                Width: =1303
+                X: =24
+                Y: =39
+                ZIndex: =1
+
+            Label21 As label:
+                FontWeight: =FontWeight.Semibold
+                Size: =14
+                Text: ="Critical Issues"
+                X: =46
+                Y: =81
+                ZIndex: =2
+
+            Label21_1 As label:
+                FontWeight: =FontWeight.Semibold
+                Size: =14
+                Text: ="Leading Actions"
+                Width: =168
+                X: =760
+                Y: =81
+                ZIndex: =3
+
+            DataTable5 As dataTable.datatable:
+                BorderColor: =RGBA(0, 0, 0, 1)
+                BorderStyle: =BorderStyle.Solid
+                BorderThickness: =1
+                DisplayMode: =DisplayMode.Edit
+                Fill: =RGBA(255, 255, 255, 1)
+                HeadingFill: =RGBA(58, 55, 46, 1)
+                Height: =188
+                HoverFill: =RGBA(202, 202, 202, 1)
+                Items: =criticalIssues_2
+                SelectedFill: =RGBA(149, 149, 149, 1)
+                Width: =686
+                X: =48
+                Y: =121
+                ZIndex: =4
+
+                Title_Column4 As dataTableColumn.textualColumn:
+                    DisplayMode: =DisplayMode.Edit
+                    FieldDisplayName: ="Title"
+                    FieldName: ="Title"
+                    FieldVariantName: ="textualColumn"
+                    Height: =Parent.Height
+                    LayoutHeight: =Parent.Height
+                    Order: =1
+                    Text: =ThisItem.Title
+                    Width: =100
+                    X: =0
+                    Y: =0
+                    ZIndex: =8
+
+                Assigned_Column3 As dataTableColumn.textualColumn:
+                    DisplayMode: =DisplayMode.Edit
+                    FieldDisplayName: ="Assigned"
+                    FieldName: ="Assigned"
+                    FieldVariantName: ="textualColumn"
+                    Height: =Parent.Height
+                    LayoutHeight: =Parent.Height
+                    Order: =2
+                    Text: =ThisItem.Assigned
+                    Width: =100
+                    X: =0
+                    Y: =0
+                    ZIndex: =9
+
+                Status_Column3 As dataTableColumn.textualColumn:
+                    DisplayMode: =DisplayMode.Edit
+                    FieldDisplayName: ="Status"
+                    FieldName: ="Status"
+                    FieldVariantName: ="textualColumn"
+                    Height: =Parent.Height
+                    LayoutHeight: =Parent.Height
+                    Order: =3
+                    Text: =ThisItem.Status
+                    Width: =100
+                    X: =0
+                    Y: =0
+                    ZIndex: =10
+
+                Progress_Column3 As dataTableColumn.textualColumn:
+                    DisplayMode: =DisplayMode.Edit
+                    FieldDisplayName: ="Progress"
+                    FieldName: ="Progress"
+                    FieldVariantName: ="textualColumn"
+                    Height: =Parent.Height
+                    LayoutHeight: =Parent.Height
+                    Order: =4
+                    Text: =ThisItem.Progress
+                    Width: =100
+                    X: =0
+                    Y: =0
+                    ZIndex: =11
+
+            DataTable6 As dataTable.datatable:
+                BorderColor: =RGBA(0, 0, 0, 1)
+                BorderStyle: =BorderStyle.Solid
+                BorderThickness: =1
+                DisplayMode: =DisplayMode.Edit
+                Fill: =RGBA(255, 255, 255, 1)
+                HeadingFill: =RGBA(58, 55, 46, 1)
+                Height: =188
+                HoverFill: =RGBA(202, 202, 202, 1)
+                Items: =leadingActions
+                SelectedFill: =RGBA(149, 149, 149, 1)
+                Width: =549
+                X: =756
+                Y: =121
+                ZIndex: =5
+
+                Title_Column5 As dataTableColumn.textualColumn:
+                    DisplayMode: =DisplayMode.Edit
+                    FieldDisplayName: ="Title"
+                    FieldName: ="Title"
+                    FieldVariantName: ="textualColumn"
+                    Height: =Parent.Height
+                    LayoutHeight: =Parent.Height
+                    Order: =1
+                    Text: =ThisItem.Title
+                    Width: =100
+                    X: =0
+                    Y: =0
+                    ZIndex: =12
+
+                "'Action Owner_Column1' As dataTableColumn.textualColumn":
+                    DisplayMode: =DisplayMode.Edit
+                    FieldDisplayName: ="Action Owner"
+                    FieldName: ="ActionOwner"
+                    FieldVariantName: ="textualColumn"
+                    Height: =Parent.Height
+                    LayoutHeight: =Parent.Height
+                    Order: =2
+                    Text: =ThisItem.'Action Owner'
+                    Width: =100
+                    X: =0
+                    Y: =0
+                    ZIndex: =13
+
+                "'Action Status_Column1' As dataTableColumn.textualColumn":
+                    DisplayMode: =DisplayMode.Edit
+                    FieldDisplayName: ="Action Status"
+                    FieldName: ="ActionStatus"
+                    FieldVariantName: ="textualColumn"
+                    Height: =Parent.Height
+                    LayoutHeight: =Parent.Height
+                    Order: =3
+                    Text: =ThisItem.'Action Status'
+                    Width: =100
+                    X: =0
+                    Y: =0
+                    ZIndex: =14
+
+        DataCard6 As dataCard.blankCard:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderStyle: =BorderStyle.Solid
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(226, 223, 218, 1)
+            Height: =570
+            Width: =1366
+            X: =0
+            Y: =2
+            ZIndex: =3
+
+            Icon3 As icon.Filter:
+                Color: =RGBA(0, 0, 0, 1)
+                Height: =30
+                Icon: =Icon.Filter
+                Width: =29
+                X: =42
+                Y: =106
+                ZIndex: =1
+
+            Button7 As button:
+                Fill: =RGBA(255, 0, 0, 1)
+                OnSelect: =false   
+                Text: |-
+                    ="Export Report
+                    "
+                X: =1148
+                Y: =100
+                ZIndex: =3
+
+            DataTable7 As dataTable.datatable:
+                BorderColor: =RGBA(0, 0, 0, 1)
+                BorderStyle: =BorderStyle.Solid
+                BorderThickness: =1
+                DisplayMode: =DisplayMode.Edit
+                Fill: =RGBA(255, 255, 255, 1)
+                HeadingFill: =RGBA(58, 55, 46, 1)
+                Height: =240
+                Items: =Insights123
+                Width: =1266
+                X: =42
+                Y: =155
+                ZIndex: =4
+
+                Title_Column6 As dataTableColumn.textualColumn:
+                    DisplayMode: =DisplayMode.Edit
+                    FieldDisplayName: ="Title"
+                    FieldName: ="Title"
+                    FieldVariantName: ="textualColumn"
+                    Height: =Parent.Height
+                    LayoutHeight: =Parent.Height
+                    Order: =1
+                    Text: =ThisItem.Title
+                    Width: =100
+                    X: =0
+                    Y: =0
+                    ZIndex: =15
+
+                Select_Column1 As dataTableColumn.booleanColumn:
+                    DisplayMode: =DisplayMode.Edit
+                    FieldDisplayName: ="Select"
+                    FieldName: ="Select"
+                    FieldVariantName: ="booleanColumn"
+                    Height: =Parent.Height
+                    LayoutHeight: =Parent.Height
+                    Order: =2
+                    Text: =ThisItem.Select
+                    Width: =100
+                    X: =0
+                    Y: =0
+                    ZIndex: =16
+
+                "'Focus Area_Column1' As dataTableColumn.textualColumn":
+                    DisplayMode: =DisplayMode.Edit
+                    FieldDisplayName: ="Focus Area"
+                    FieldName: ="FocusArea"
+                    FieldVariantName: ="textualColumn"
+                    Height: =Parent.Height
+                    LayoutHeight: =Parent.Height
+                    Order: =3
+                    Text: =ThisItem.'Focus Area'
+                    Width: =100
+                    X: =0
+                    Y: =0
+                    ZIndex: =17
+
+                Assigned_Column4 As dataTableColumn.textualColumn:
+                    DisplayMode: =DisplayMode.Edit
+                    FieldDisplayName: ="Assigned"
+                    FieldName: ="Assigned"
+                    FieldVariantName: ="textualColumn"
+                    Height: =Parent.Height
+                    LayoutHeight: =Parent.Height
+                    Order: =4
+                    Text: =ThisItem.Assigned
+                    Width: =100
+                    X: =0
+                    Y: =0
+                    ZIndex: =18
+
+                Rule_Column1 As dataTableColumn.textualColumn:
+                    DisplayMode: =DisplayMode.Edit
+                    FieldDisplayName: ="Rule"
+                    FieldName: ="Rule"
+                    FieldVariantName: ="textualColumn"
+                    Height: =Parent.Height
+                    LayoutHeight: =Parent.Height
+                    Order: =5
+                    Text: =ThisItem.Rule
+                    Width: =100
+                    X: =0
+                    Y: =0
+                    ZIndex: =19
+
+                Progress_Column4 As dataTableColumn.textualColumn:
+                    DisplayMode: =DisplayMode.Edit
+                    FieldDisplayName: ="Progress"
+                    FieldName: ="Progress"
+                    FieldVariantName: ="textualColumn"
+                    Height: =Parent.Height
+                    LayoutHeight: =Parent.Height
+                    Order: =6
+                    Text: =ThisItem.Progress
+                    Width: =100
+                    X: =0
+                    Y: =0
+                    ZIndex: =20
+
+            Dropdown7_2 As dropdown:
+                BorderColor: =RGBA(0, 0, 0, 1)
+                ChevronBackground: =RGBA(255, 0, 0, 1)
+                Height: =23
+                Items: =DropDownSample
+                Width: =105
+                X: =92
+                Y: =110
+                ZIndex: =6
+
+            Rectangle6_3 As rectangle:
+                BorderColor: =RGBA(149, 149, 149, 1)
+                BorderThickness: =2
+                Fill: =RGBA(0, 0, 0, 0)
+                Height: =388
+                Width: =1303
+                X: =23
+                Y: =69
+                ZIndex: =7
+
+    RectQuickActionBar2 As rectangle:
+        Height: =88
+        Width: =Parent.Width
+        ZIndex: =2
+
+    LblAppName2 As label:
+        Align: =Align.Center
+        Height: =76
+        Text: ="[Title]"
+        Width: =Parent.Width
+        ZIndex: =3
+
+    "'Nav_bar_horizontal comp_13' As 'Nav_bar_horizontal comp'":
+        Height: =282
+        Y: =77
+        ZIndex: =11
+
+    Group1 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =12
+
+        Rectangle1_33 As rectangle:
+            Fill: =RGBA(226, 223, 218, 1)
+            Height: =46
+            Width: =1366
+            Y: =123
+            ZIndex: =4
+
+        DatePicker1_12 As datepicker:
+            BorderColor: =RGBA(116, 116, 116, 1)
+            Fill: =RGBA(219, 219, 219, 1)
+            Height: =30
+            IconBackground: =RGBA(149, 149, 149, 1)
+            Width: =265
+            X: =671
+            Y: =140
+            ZIndex: =5
+
+        Dropdown1_24 As dropdown:
+            BorderColor: =RGBA(128, 128, 128, 1)
+            ChevronBackground: =RGBA(149, 149, 149, 1)
+            ChevronHoverBackground: =ColorFade(RGBA(242, 19, 19, 1), -20%)
+            Fill: =RGBA(219, 219, 219, 1)
+            Height: =30
+            HoverColor: =RGBA(242, 19, 19, 1)
+            Items: =Friday_Demolist
+            SelectionFill: =RGBA(242, 19, 19, 1)
+            Width: =246
+            X: =936
+            Y: =140
+            ZIndex: =6
+
+        Button1_12 As button:
+            Color: =RGBA(237, 237, 237, 1)
+            Fill: =RGBA(255, 0, 0, 1)
+            Height: =22
+            HoverFill: =ColorFade(RGBA(242, 19, 19, 1), -20%)
+            RadiusBottomLeft: =5
+            RadiusBottomRight: =5
+            RadiusTopLeft: =5
+            RadiusTopRight: =5
+            Size: =10
+            Text: ="Search"
+            Width: =95
+            X: =1234
+            Y: =141
+            ZIndex: =7
+
+        Label3_12 As label:
+            Align: =Align.Center
+            FontWeight: =FontWeight.Semibold
+            Height: =41
+            Size: =15
+            Text: =App.ActiveScreen.Name
+            Width: =387
+            X: =112
+            Y: =132
+            ZIndex: =8
+
+        Label1_20 As label:
+            Align: =Align.Center
+            BorderColor: =RGBA(116, 116, 116, 1)
+            BorderThickness: =1
+            DisabledColor: =RGBA(0, 0, 0, 1)
+            Fill: =RGBA(204, 204, 204, 1)
+            FontWeight: =FontWeight.Semibold
+            Height: =28
+            OnSelect: =Navigate(Home,ScreenTransition.CoverRight)
+            Size: =14
+            Text: ="HOME"
+            Width: =99
+            X: =13
+            Y: =139
+            ZIndex: =9
+
+        Icon2_7 As icon.ChevronRight:
+            Color: =RGBA(116, 116, 116, 1)
+            Height: =27
+            Icon: =Icon.ChevronRight
+            Width: =27
+            X: =135
+            Y: =140
+            ZIndex: =10
+
+    Group2 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =17
+
+        Rectangle1_34 As rectangle:
+            Fill: =RGBA(226, 223, 218, 1)
+            Height: =76
+            Width: =1366
+            ZIndex: =12
+
+        Image1_14 As image:
+            Height: =76
+            Image: ='MicrosoftTeams-image (2)'
+            Width: =119
+            X: =28
+            ZIndex: =13
+
+        Label1_21 As label:
+            Align: =Align.Center
+            Font: =Font.'Lato Black'
+            Height: =76
+            Size: =30
+            Text: ="Digital Performance Management System"
+            Width: =1219
+            X: =73
+            ZIndex: =14
+
+        Dropdown1_25 As dropdown:
+            BorderColor: =RGBA(166, 166, 166, 1)
+            ChevronBackground: =RGBA(149, 149, 149, 1)
+            ChevronHoverBackground: =ColorFade(RGBA(242, 19, 19, 1), -20%)
+            Fill: =RGBA(219, 219, 219, 1)
+            Height: =26
+            Items: =Friday_Demolist
+            SelectionFill: =RGBA(242, 19, 19, 1)
+            Width: =170
+            X: =1180
+            Y: =12
+            ZIndex: =15
+
+        Label2_12 As label:
+            FontWeight: =FontWeight.Semibold
+            Height: =22
+            Text: ="Admin"
+            Width: =137
+            X: =1182
+            Y: =46
+            ZIndex: =16
+

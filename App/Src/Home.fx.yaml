@@ -1,0 +1,82 @@
+"Home As screen.'phoneLayout_FluidGridWithHeaderPageLayout_ver3.0'":
+
+    RectQuickActionBar1_2 As rectangle:
+        Height: =76
+        Width: =Parent.Width
+        ZIndex: =1
+
+    LblAppName1_2 As label:
+        Align: =Align.Center
+        Height: =76
+        Text: ="[Title]"
+        Width: =Parent.Width
+        ZIndex: =2
+
+    Canvas1_2 As fluidGrid.fluidGridWithBlankCard:
+        BorderThickness: =0
+        Height: =620
+        Width: =Parent.Width
+        Y: =147
+        ZIndex: =3
+
+        DataCard1_2 As dataCard:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderStyle: =BorderStyle.Solid
+            BorderThickness: =0
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =609
+            Width: =1366
+            X: =0
+            Y: =0
+            ZIndex: =1
+
+            Rectangle3_8 As rectangle:
+                BorderColor: =RGBA(128, 128, 128, 1)
+                BorderThickness: =1
+                Fill: =RGBA(0, 0, 0, 0)
+                Height: =585
+                Width: =1316
+                X: =15
+                Y: =15
+                ZIndex: =1
+
+    Rectangle1_5 As rectangle:
+        Fill: =RGBA(202, 202, 202, 1)
+        Height: =76
+        Width: =1366
+        ZIndex: =4
+
+    Image1_3 As image:
+        Height: =76
+        Image: ='MicrosoftTeams-image (2)'
+        Width: =119
+        X: =28
+        ZIndex: =5
+
+    Label1_3 As label:
+        Align: =Align.Center
+        Font: =Font.'Lato Black'
+        Height: =76
+        Size: =30
+        Text: ="Digital Performance Management System"
+        Width: =1219
+        X: =73
+        ZIndex: =6
+
+    Rectangle1_6 As rectangle:
+        Fill: =RGBA(202, 202, 202, 1)
+        Height: =46
+        Width: =1366
+        Y: =88
+        ZIndex: =7
+
+    Label4 As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Semibold
+        Size: =22
+        Text: ="Home"
+        X: =607
+        Y: =91
+        ZIndex: =8
+

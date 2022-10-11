@@ -1,0 +1,409 @@
+"Page9 As screen.'phoneLayout_FluidGridWithHeaderPageLayout_ver3.0'":
+
+    RectQuickActionBar1_15 As rectangle:
+        Height: =76
+        Width: =Parent.Width
+        ZIndex: =1
+
+    LblAppName1_15 As label:
+        Align: =Align.Center
+        Height: =76
+        Text: ="[Title]"
+        Width: =Parent.Width
+        ZIndex: =2
+
+    Canvas1_15 As fluidGrid.fluidGridWithBlankCard:
+        BorderThickness: =0
+        Height: =620
+        Width: =Parent.Width
+        Y: =147
+        ZIndex: =3
+
+        DataCard1_15 As dataCard:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderStyle: =BorderStyle.Solid
+            BorderThickness: =0
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(226, 223, 218, 1)
+            Height: =1466
+            Width: =1366
+            X: =0
+            Y: =0
+            ZIndex: =1
+
+            Rectangle6_18 As rectangle:
+                BorderColor: =RGBA(149, 149, 149, 1)
+                BorderThickness: =2
+                Fill: =RGBA(0, 0, 0, 0)
+                Height: =424
+                Width: =1278
+                X: =37
+                Y: =58
+                ZIndex: =7
+
+            CompositeColumnChart2 As group:
+                Height: =5
+                Width: =5
+                X: =-107
+                Y: =-171
+                ZIndex: =8
+
+                ColumnChart3 As barChart:
+                    Height: =294
+                    Items: =ColumnChartSample
+                    Width: =1062
+                    X: =146
+                    Y: =101
+                    ZIndex: =10
+
+                Legend5 As legend:
+                    Height: =59
+                    ItemColorSet: =ColumnChart3.ItemColorSet
+                    Items: =ColumnChart3.SeriesLabels
+                    Width: =849
+                    X: =252
+                    Y: =402
+                    ZIndex: =11
+
+            Rectangle6_19 As rectangle:
+                BorderColor: =RGBA(149, 149, 149, 1)
+                BorderThickness: =2
+                Fill: =RGBA(0, 0, 0, 0)
+                Height: =400
+                Width: =410
+                X: =27
+                Y: =530
+                ZIndex: =12
+
+            Rectangle6_20 As rectangle:
+                BorderColor: =RGBA(149, 149, 149, 1)
+                BorderThickness: =2
+                Fill: =RGBA(0, 0, 0, 0)
+                Height: =400
+                Width: =410
+                X: =472
+                Y: =530
+                ZIndex: =13
+
+            Rectangle6_21 As rectangle:
+                BorderColor: =RGBA(149, 149, 149, 1)
+                BorderThickness: =2
+                Fill: =RGBA(0, 0, 0, 0)
+                Height: =400
+                Width: =410
+                X: =915
+                Y: =530
+                ZIndex: =14
+
+            Rectangle6_22 As rectangle:
+                BorderColor: =RGBA(149, 149, 149, 1)
+                BorderThickness: =2
+                Fill: =RGBA(0, 0, 0, 0)
+                Height: =400
+                Width: =600
+                X: =57
+                Y: =982
+                ZIndex: =15
+
+            Rectangle6_23 As rectangle:
+                BorderColor: =RGBA(149, 149, 149, 1)
+                BorderThickness: =2
+                Fill: =RGBA(0, 0, 0, 0)
+                Height: =400
+                Width: =600
+                X: =695
+                Y: =982
+                ZIndex: =16
+
+            CompositeLineChart2 As group:
+                Height: =5
+                Width: =5
+                X: =40
+                Y: =40
+                ZIndex: =17
+
+                Title7 As label:
+                    Align: =Align.Center
+                    FontWeight: =FontWeight.Semibold
+                    Height: =32
+                    Text: ="Hizentra PFS yield (g/l) - FYTD"
+                    Width: =284
+                    X: =84
+                    Y: =1003
+                    ZIndex: =18
+
+                LineChart3 As lineChart:
+                    Font: =Font.'Open Sans'
+                    Height: =293
+                    Items: =LineChartSample
+                    Width: =588
+                    X: =84
+                    Y: =1046
+                    ZIndex: =19
+
+                Legend6 As legend:
+                    Height: =59
+                    ItemColorSet: =LineChart3.ItemColorSet
+                    Items: =LineChart3.SeriesLabels
+                    Width: =470
+                    X: =84
+                    Y: =1344
+                    ZIndex: =20
+
+            CompositeLineChart2_1 As group:
+                Height: =5
+                Width: =5
+                X: =40
+                Y: =40
+                ZIndex: =21
+
+                LineChart3_1 As lineChart:
+                    Font: =Font.'Open Sans'
+                    Height: =293
+                    Items: =LineChartSample
+                    Width: =588
+                    X: =739
+                    Y: =1050
+                    ZIndex: =23
+
+                Legend6_1 As legend:
+                    Height: =31
+                    ItemColorSet: =LineChart3_1.ItemColorSet
+                    Items: =LineChart3_1.SeriesLabels
+                    Width: =169
+                    X: =1077
+                    Y: =1050
+                    ZIndex: =24
+
+            Title7_1 As label:
+                Align: =Align.Center
+                FontWeight: =FontWeight.Semibold
+                Height: =32
+                Text: ="Recovery (%) - FYTD"
+                Width: =212
+                X: =1065
+                Y: =1003
+                ZIndex: =25
+
+            Label24 As label:
+                FontWeight: =FontWeight.Semibold
+                Text: ="PPQ RFT"
+                X: =57
+                Y: =69
+                ZIndex: =26
+
+            Label24_1 As label:
+                Text: ="Past month"
+                X: =282
+                Y: =1346
+                ZIndex: =27
+
+            Label24_2 As label:
+                Text: ="Past month"
+                X: =915
+                Y: =1346
+                ZIndex: =28
+
+            Label24_3 As label:
+                FontWeight: =FontWeight.Semibold
+                Text: ="Past month"
+                Width: =108
+                X: =623
+                Y: =442
+                ZIndex: =29
+
+            CompositeLineChart3 As group:
+                Height: =5
+                Width: =5
+                X: =40
+                Y: =40
+                ZIndex: =30
+
+                LineChart4 As lineChart:
+                    Font: =Font.'Open Sans'
+                    Height: =271
+                    Items: =LineChartSample
+                    X: =939
+                    Y: =585
+                    ZIndex: =32
+
+                Legend7 As legend:
+                    Height: =54
+                    ItemColorSet: =LineChart4.ItemColorSet
+                    Items: =LineChart4.SeriesLabels
+                    Width: =115
+                    X: =1218
+                    Y: =534
+                    ZIndex: =33
+
+            Label24_4 As label:
+                Height: =44
+                Text: ="Past month"
+                Width: =108
+                X: =1066
+                Y: =886
+                ZIndex: =34
+
+            Label24_5 As label:
+                Height: =44
+                Text: ="Past month"
+                Width: =108
+                X: =623
+                Y: =886
+                ZIndex: =35
+
+            Label24_6 As label:
+                Height: =44
+                Text: ="Past month"
+                Width: =108
+                X: =172
+                Y: =886
+                ZIndex: =36
+
+            LineChart4_1 As lineChart:
+                Font: =Font.'Open Sans'
+                Height: =271
+                Items: =LineChartSample
+                X: =482
+                Y: =585
+                ZIndex: =37
+
+            Title7_2 As label:
+                Align: =Align.Center
+                Height: =32
+                Size: =13
+                Text: ="Hizentra vial yield (g/L) - FYTD"
+                Width: =284
+                X: =924
+                Y: =533
+                ZIndex: =38
+
+            Title7_3 As label:
+                Align: =Align.Center
+                Height: =32
+                Size: =13
+                Text: ="Privigen yield (g/L) - FYTD"
+                Width: =227
+                X: =488
+                Y: =533
+                ZIndex: =39
+
+            Title7_4 As label:
+                Align: =Align.Center
+                Height: =32
+                Size: =13
+                Text: ="IgG Overall Network Yield (g/L)"
+                Width: =284
+                X: =37
+                Y: =533
+                ZIndex: =40
+
+    Rectangle1_43 As rectangle:
+        Fill: =RGBA(226, 223, 218, 1)
+        Height: =76
+        Width: =1366
+        ZIndex: =4
+
+    Image1_19 As image:
+        Height: =76
+        Image: ='MicrosoftTeams-image (2)'
+        Width: =119
+        X: =28
+        ZIndex: =5
+
+    Label1_27 As label:
+        Align: =Align.Center
+        Font: =Font.'Lato Black'
+        Height: =76
+        Size: =30
+        Text: ="Digital Performance Management System"
+        Width: =1219
+        X: =73
+        ZIndex: =6
+
+    Rectangle1_44 As rectangle:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        BorderThickness: =1
+        Fill: =RGBA(226, 223, 218, 1)
+        Height: =60
+        Width: =1366
+        Y: =123
+        ZIndex: =7
+
+    Dropdown1_36 As dropdown:
+        BorderColor: =RGBA(166, 166, 166, 1)
+        ChevronBackground: =RGBA(149, 149, 149, 1)
+        ChevronHoverBackground: =ColorFade(RGBA(242, 19, 19, 1), -20%)
+        Fill: =RGBA(219, 219, 219, 1)
+        Height: =26
+        Items: =Friday_Demolist
+        SelectionFill: =RGBA(242, 19, 19, 1)
+        Width: =170
+        X: =1180
+        Y: =12
+        ZIndex: =8
+
+    Label2_17 As label:
+        FontWeight: =FontWeight.Semibold
+        Height: =22
+        Text: ="Admin"
+        Width: =137
+        X: =1182
+        Y: =46
+        ZIndex: =9
+
+    Label3_16 As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Semibold
+        Height: =41
+        Size: =15
+        Text: =App.ActiveScreen.Name
+        Width: =388
+        X: =27
+        Y: =131
+        ZIndex: =10
+
+    DatePicker1_17 As datepicker:
+        BorderColor: =RGBA(116, 116, 116, 1)
+        Fill: =RGBA(219, 219, 219, 1)
+        Height: =30
+        IconBackground: =RGBA(149, 149, 149, 1)
+        Width: =265
+        X: =671
+        Y: =139
+        ZIndex: =11
+
+    Dropdown1_37 As dropdown:
+        BorderColor: =RGBA(128, 128, 128, 1)
+        ChevronBackground: =RGBA(149, 149, 149, 1)
+        ChevronHoverBackground: =ColorFade(RGBA(242, 19, 19, 1), -20%)
+        Fill: =RGBA(219, 219, 219, 1)
+        Height: =30
+        HoverColor: =RGBA(242, 19, 19, 1)
+        Items: =Friday_Demolist
+        SelectionFill: =RGBA(242, 19, 19, 1)
+        Width: =246
+        X: =936
+        Y: =139
+        ZIndex: =12
+
+    Button1_17 As button:
+        Color: =RGBA(237, 237, 237, 1)
+        Fill: =RGBA(255, 0, 0, 1)
+        Height: =20
+        HoverFill: =ColorFade(RGBA(242, 19, 19, 1), -20%)
+        RadiusBottomLeft: =5
+        RadiusBottomRight: =5
+        RadiusTopLeft: =5
+        RadiusTopRight: =5
+        Size: =10
+        Text: ="Search"
+        Width: =88
+        X: =1240
+        Y: =147
+        ZIndex: =13
+
+    "'Nav_bar_horizontal comp_18' As 'Nav_bar_horizontal comp'":
+        Y: =77
+        ZIndex: =15
+

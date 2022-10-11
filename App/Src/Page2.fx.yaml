@@ -1,0 +1,272 @@
+"Page2 As screen.'phoneLayout_FluidGridWithHeaderPageLayout_ver3.0'":
+
+    RectQuickActionBar1_4 As rectangle:
+        Height: =76
+        Width: =Parent.Width
+        ZIndex: =1
+
+    LblAppName1_4 As label:
+        Align: =Align.Center
+        Height: =76
+        Text: ="[Title]"
+        Width: =Parent.Width
+        ZIndex: =2
+
+    Canvas1_4 As fluidGrid.fluidGridWithBlankCard:
+        BorderThickness: =0
+        Height: =620
+        Width: =Parent.Width
+        Y: =147
+        ZIndex: =3
+
+        DataCard1_4 As dataCard:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderStyle: =BorderStyle.Solid
+            BorderThickness: =0
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(226, 223, 218, 1)
+            Height: =0
+            Width: =1366
+            X: =0
+            Y: =0
+            ZIndex: =1
+
+            Rectangle6_2 As rectangle:
+                BorderColor: =RGBA(149, 149, 149, 1)
+                BorderThickness: =2
+                Fill: =RGBA(0, 0, 0, 0)
+                Height: =362
+                Width: =1279
+                X: =21
+                Y: =86
+                ZIndex: =1
+
+            Rectangle3_10 As rectangle:
+                BorderColor: =RGBA(128, 128, 128, 1)
+                BorderThickness: =1
+                Fill: =RGBA(0, 0, 0, 0)
+                Height: =558
+                Width: =1334
+                ZIndex: =2
+
+            Label7_10 As label:
+                Text: =""
+                X: =45
+                Y: =262
+                ZIndex: =3
+
+            Label10 As label:
+                Text: |-
+                    ="To
+                    "
+                X: =918
+                Y: =117
+                ZIndex: =4
+
+            TextInput3 As text:
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Default: ="Enter in YYY"
+                X: =963
+                Y: =117
+                ZIndex: =5
+
+            TextInput3_1 As text:
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Default: ="Text input"
+                X: =963
+                Y: =262
+                ZIndex: =6
+
+            Label11 As label:
+                Color: =RGBA(104, 158, 28, 1)
+                FontWeight: =FontWeight.Semibold
+                Text: ="Calculated Value"
+                X: =963
+                Y: =348
+                ZIndex: =7
+
+            Label11_1 As label:
+                Text: ="Fiscal Year"
+                X: =28
+                Y: =117
+                ZIndex: =8
+
+            Label11_2 As label:
+                Text: ="Select Quarter"
+                X: =28
+                Y: =189
+                ZIndex: =9
+
+            Label11_3 As label:
+                Text: ="Enter Total Provisions Write Offs (in USD)"
+                Width: =345
+                X: =28
+                Y: =268
+                ZIndex: =10
+
+            Label11_4 As label:
+                Text: ="% Savings"
+                X: =28
+                Y: =336
+                ZIndex: =11
+
+            Dropdown3 As dropdown:
+                BorderColor: =RGBA(0, 0, 0, 1)
+                ChevronBackground: =RGBA(255, 0, 0, 1)
+                Height: =37
+                Items: =DropDownSample
+                Width: =320
+                X: =963
+                Y: =192
+                ZIndex: =12
+
+            Label12 As label:
+                Fill: =RGBA(226, 223, 218, 1)
+                Text: ="Provisions/Write offs"
+                Width: =178
+                X: =78
+                Y: =63
+                ZIndex: =13
+
+            Button4 As button:
+                Fill: =RGBA(255, 0, 0, 1)
+                Height: =44
+                Text: ="Save Entries"
+                X: =1133
+                Y: =468
+                ZIndex: =14
+
+            TextInput2 As text:
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Default: ="Enter in YYY"
+                X: =548
+                Y: =117
+                ZIndex: =15
+
+            Label9 As label:
+                Text: |-
+                    ="From
+                    "
+                Width: =95
+                X: =480
+                Y: =117
+                ZIndex: =16
+
+        DataCard2_1 As dataCard.blankCard:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderStyle: =BorderStyle.Solid
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(226, 223, 218, 1)
+            Height: =100
+            Width: =1366
+            X: =0
+            Y: =1
+            ZIndex: =2
+
+    Rectangle1_27 As rectangle:
+        Fill: =RGBA(226, 223, 218, 1)
+        Height: =76
+        Width: =1366
+        ZIndex: =4
+
+    Image1_5 As image:
+        Height: =76
+        Image: ='MicrosoftTeams-image (2)'
+        Width: =119
+        X: =28
+        ZIndex: =5
+
+    Label1_17 As label:
+        Align: =Align.Center
+        Font: =Font.'Lato Black'
+        Height: =76
+        Size: =30
+        Text: ="Digital Performance Management System"
+        Width: =1219
+        X: =73
+        ZIndex: =6
+
+    Rectangle1_28 As rectangle:
+        Fill: =RGBA(226, 223, 218, 1)
+        Height: =46
+        Width: =1366
+        Y: =123
+        ZIndex: =7
+
+    Dropdown1_6 As dropdown:
+        BorderColor: =RGBA(166, 166, 166, 1)
+        ChevronBackground: =RGBA(149, 149, 149, 1)
+        ChevronHoverBackground: =ColorFade(RGBA(242, 19, 19, 1), -20%)
+        Fill: =RGBA(219, 219, 219, 1)
+        Height: =26
+        Items: =Friday_Demolist
+        SelectionFill: =RGBA(242, 19, 19, 1)
+        Width: =170
+        X: =1180
+        Y: =12
+        ZIndex: =8
+
+    Label2_3 As label:
+        FontWeight: =FontWeight.Semibold
+        Height: =22
+        Text: ="Admin"
+        Width: =137
+        X: =1182
+        Y: =46
+        ZIndex: =9
+
+    Label3_9 As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Semibold
+        Height: =41
+        Size: =15
+        Text: =App.ActiveScreen.Name
+        Width: =388
+        X: =27
+        Y: =131
+        ZIndex: =10
+
+    DatePicker1_3 As datepicker:
+        BorderColor: =RGBA(116, 116, 116, 1)
+        Fill: =RGBA(219, 219, 219, 1)
+        Height: =30
+        IconBackground: =RGBA(149, 149, 149, 1)
+        Width: =265
+        X: =671
+        Y: =139
+        ZIndex: =11
+
+    Dropdown1_7 As dropdown:
+        BorderColor: =RGBA(128, 128, 128, 1)
+        ChevronBackground: =RGBA(149, 149, 149, 1)
+        ChevronHoverBackground: =ColorFade(RGBA(242, 19, 19, 1), -20%)
+        Fill: =RGBA(219, 219, 219, 1)
+        Height: =30
+        HoverColor: =RGBA(242, 19, 19, 1)
+        Items: =Friday_Demolist
+        SelectionFill: =RGBA(242, 19, 19, 1)
+        Width: =246
+        X: =936
+        Y: =139
+        ZIndex: =12
+
+    Button1_3 As button:
+        Color: =RGBA(237, 237, 237, 1)
+        Fill: =RGBA(255, 0, 0, 1)
+        Height: =20
+        HoverFill: =ColorFade(RGBA(242, 19, 19, 1), -20%)
+        RadiusBottomLeft: =5
+        RadiusBottomRight: =5
+        RadiusTopLeft: =5
+        RadiusTopRight: =5
+        Size: =10
+        Text: ="Search"
+        Width: =88
+        X: =1240
+        Y: =147
+        ZIndex: =13
+
+    "'Nav_bar_horizontal comp_10' As 'Nav_bar_horizontal comp'":
+        Y: =77
+        ZIndex: =14
+

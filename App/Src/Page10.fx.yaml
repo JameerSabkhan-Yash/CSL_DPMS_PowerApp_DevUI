@@ -1,0 +1,314 @@
+"Page10 As screen.'phoneLayout_FluidGridWithHeaderPageLayout_ver3.0'":
+
+    RectQuickActionBar1_16 As rectangle:
+        Height: =76
+        Width: =Parent.Width
+        ZIndex: =1
+
+    LblAppName1_16 As label:
+        Align: =Align.Center
+        Height: =76
+        Text: ="[Title]"
+        Width: =Parent.Width
+        ZIndex: =2
+
+    Canvas1_16 As fluidGrid.fluidGridWithBlankCard:
+        BorderThickness: =0
+        Height: =620
+        Width: =Parent.Width
+        Y: =147
+        ZIndex: =3
+
+        DataCard8 As dataCard.blankCard:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderStyle: =BorderStyle.Solid
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(226, 223, 218, 1)
+            Height: =620
+            Width: =1366
+            X: =0
+            Y: =0
+            ZIndex: =1
+
+            Label7_3 As label:
+                FontWeight: =FontWeight.Semibold
+                Text: |-
+                    ="Fiscal Year
+                    "
+                X: =140
+                Y: =110
+                ZIndex: =1
+
+            Label7_9 As label:
+                FontWeight: =FontWeight.Semibold
+                Text: ="Quarter"
+                X: =140
+                Y: =160
+                ZIndex: =2
+
+            Label7_12 As label:
+                FontWeight: =FontWeight.Semibold
+                Text: ="Enter Number of Recordable Incidences"
+                Width: =348
+                X: =140
+                Y: =277
+                ZIndex: =3
+
+            Label7_13 As label:
+                FontWeight: =FontWeight.Semibold
+                Text: ="Total Hours Worked YTD"
+                Width: =290
+                X: =140
+                Y: =327
+                ZIndex: =4
+
+            Label7_14 As label:
+                FontWeight: =FontWeight.Semibold
+                Height: =48
+                Text: ="Total Number of Recordable Incidence YTD"
+                Width: =376
+                X: =140
+                Y: =377
+                ZIndex: =5
+
+            Label7_16 As label:
+                FontWeight: =FontWeight.Semibold
+                Height: =41
+                Text: ="Enter Total Hours Worked"
+                Width: =281
+                X: =140
+                Y: =220
+                ZIndex: =6
+
+            Label6_1 As label:
+                Fill: =RGBA(226, 223, 218, 1)
+                FontWeight: =FontWeight.Semibold
+                Height: =23
+                Text: ="Region"
+                X: =139
+                Y: =73
+                ZIndex: =7
+
+            Dropdown7 As dropdown:
+                BorderColor: =RGBA(0, 0, 0, 1)
+                ChevronBackground: =RGBA(0, 0, 0, 1)
+                Height: =25
+                Items: =DropDownSample
+                Width: =170
+                X: =1000
+                Y: =71
+                ZIndex: =8
+
+            Dropdown7_1 As dropdown:
+                BorderColor: =RGBA(0, 0, 0, 1)
+                ChevronBackground: =RGBA(0, 0, 0, 1)
+                Height: =25
+                Items: =DropDownSample
+                Width: =170
+                X: =1000
+                Y: =167
+                ZIndex: =9
+
+            TextInput6_1 As text:
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Default: ="Max 7 decimal"
+                Height: =28
+                Width: =170
+                X: =1000
+                Y: =210
+                ZIndex: =10
+
+            TextInput6_2 As text:
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Default: =""
+                Height: =28
+                Width: =170
+                X: =1000
+                Y: =268
+                ZIndex: =11
+
+            Label25 As label:
+                Color: =RGBA(255, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
+                Text: ="Calculated Value"
+                X: =995
+                Y: =321
+                ZIndex: =12
+
+            Label25_1 As label:
+                Color: =RGBA(255, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
+                Text: ="Calculated Value"
+                X: =995
+                Y: =367
+                ZIndex: =13
+
+            TextInput6 As text:
+                BorderColor: =RGBA(0, 0, 0, 1)
+                Default: ="Enter in YYY"
+                Height: =28
+                Width: =170
+                X: =1000
+                Y: =114
+                ZIndex: =14
+
+            Button16 As button:
+                Fill: =RGBA(255, 0, 0, 1)
+                Text: ="Save Entries"
+                X: =1010
+                Y: =569
+                ZIndex: =15
+
+            Rectangle9 As rectangle:
+                BorderColor: =RGBA(149, 149, 149, 1)
+                BorderThickness: =1
+                Fill: =RGBA(0, 0, 0, 0)
+                Height: =92
+                Width: =1030
+                X: =140
+                Y: =459
+                ZIndex: =16
+
+            Label25_2 As label:
+                Color: =RGBA(255, 0, 0, 1)
+                FontWeight: =FontWeight.Bold
+                Height: =38
+                Size: =14
+                Text: ="Calculated Value"
+                Width: =216
+                X: =193
+                Y: =487
+                ZIndex: =17
+
+            Label26 As label:
+                Color: =RGBA(0, 0, 0, 0.8)
+                Fill: =RGBA(226, 223, 218, 1)
+                FontWeight: =FontWeight.Semibold
+                Height: =35
+                Size: =12
+                Text: ="Annual Projected TRIR"
+                Width: =182
+                X: =156
+                Y: =441
+                ZIndex: =18
+
+            Button18 As button:
+                Fill: =RGBA(255, 0, 0, 1)
+                Height: =25
+                RadiusBottomLeft: =50
+                RadiusBottomRight: =50
+                RadiusTopLeft: =50
+                RadiusTopRight: =50
+                Text: =""
+                Width: =25
+                X: =160
+                Y: =493
+                ZIndex: =19
+
+    Rectangle1_45 As rectangle:
+        Fill: =RGBA(226, 223, 218, 1)
+        Height: =76
+        Width: =1366
+        ZIndex: =4
+
+    Image1_20 As image:
+        Height: =76
+        Image: ='MicrosoftTeams-image (2)'
+        Width: =119
+        X: =28
+        ZIndex: =5
+
+    Label1_28 As label:
+        Align: =Align.Center
+        Font: =Font.'Lato Black'
+        Height: =76
+        Size: =30
+        Text: ="Digital Performance Management System"
+        Width: =1219
+        X: =73
+        ZIndex: =6
+
+    Rectangle1_46 As rectangle:
+        Fill: =RGBA(226, 223, 218, 1)
+        Height: =46
+        Width: =1366
+        Y: =123
+        ZIndex: =7
+
+    Dropdown1_38 As dropdown:
+        BorderColor: =RGBA(166, 166, 166, 1)
+        ChevronBackground: =RGBA(149, 149, 149, 1)
+        ChevronHoverBackground: =ColorFade(RGBA(242, 19, 19, 1), -20%)
+        Fill: =RGBA(219, 219, 219, 1)
+        Height: =26
+        Items: =Friday_Demolist
+        SelectionFill: =RGBA(242, 19, 19, 1)
+        Width: =170
+        X: =1180
+        Y: =12
+        ZIndex: =8
+
+    Label2_18 As label:
+        FontWeight: =FontWeight.Semibold
+        Height: =22
+        Text: ="Admin"
+        Width: =137
+        X: =1182
+        Y: =46
+        ZIndex: =9
+
+    Label3_17 As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Semibold
+        Height: =41
+        Size: =15
+        Text: =App.ActiveScreen.Name
+        Width: =388
+        X: =27
+        Y: =131
+        ZIndex: =10
+
+    DatePicker1_18 As datepicker:
+        BorderColor: =RGBA(116, 116, 116, 1)
+        Fill: =RGBA(219, 219, 219, 1)
+        Height: =30
+        IconBackground: =RGBA(149, 149, 149, 1)
+        Width: =265
+        X: =671
+        Y: =139
+        ZIndex: =11
+
+    Dropdown1_39 As dropdown:
+        BorderColor: =RGBA(128, 128, 128, 1)
+        ChevronBackground: =RGBA(149, 149, 149, 1)
+        ChevronHoverBackground: =ColorFade(RGBA(242, 19, 19, 1), -20%)
+        Fill: =RGBA(219, 219, 219, 1)
+        Height: =30
+        HoverColor: =RGBA(242, 19, 19, 1)
+        Items: =Friday_Demolist
+        SelectionFill: =RGBA(242, 19, 19, 1)
+        Width: =246
+        X: =936
+        Y: =139
+        ZIndex: =12
+
+    Button1_18 As button:
+        Color: =RGBA(237, 237, 237, 1)
+        Fill: =RGBA(255, 0, 0, 1)
+        Height: =20
+        HoverFill: =ColorFade(RGBA(242, 19, 19, 1), -20%)
+        RadiusBottomLeft: =5
+        RadiusBottomRight: =5
+        RadiusTopLeft: =5
+        RadiusTopRight: =5
+        Size: =10
+        Text: ="Search"
+        Width: =88
+        X: =1240
+        Y: =147
+        ZIndex: =13
+
+    "'Nav_bar_horizontal comp_19' As 'Nav_bar_horizontal comp'":
+        Y: =77
+        ZIndex: =14
+

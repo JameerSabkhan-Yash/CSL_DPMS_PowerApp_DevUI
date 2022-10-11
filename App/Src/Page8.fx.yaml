@@ -1,0 +1,460 @@
+"Page8 As screen.'phoneLayout_FluidGridWithHeaderPageLayout_ver3.0'":
+
+    RectQuickActionBar1_13 As rectangle:
+        Height: =76
+        Width: =Parent.Width
+        ZIndex: =1
+
+    LblAppName1_13 As label:
+        Align: =Align.Center
+        Height: =76
+        Text: ="[Title]"
+        Width: =Parent.Width
+        ZIndex: =2
+
+    Canvas1_13 As fluidGrid.fluidGridWithBlankCard:
+        BorderThickness: =0
+        Height: =621
+        Width: =Parent.Width
+        Y: =147
+        ZIndex: =3
+
+        DataCard1_13 As dataCard:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderStyle: =BorderStyle.Solid
+            BorderThickness: =0
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(226, 223, 218, 1)
+            Height: =616
+            Width: =1366
+            X: =0
+            Y: =0
+            ZIndex: =1
+
+            Rectangle6_7 As rectangle:
+                BorderColor: =RGBA(149, 149, 149, 1)
+                BorderThickness: =2
+                Fill: =RGBA(0, 0, 0, 0)
+                Height: =512
+                Width: =1278
+                X: =37
+                Y: =58
+                ZIndex: =7
+
+            Rectangle6_8 As rectangle:
+                BorderColor: =RGBA(149, 149, 149, 1)
+                BorderThickness: =2
+                Fill: =RGBA(0, 0, 0, 0)
+                Height: =452
+                Width: =576
+                X: =70
+                Y: =90
+                ZIndex: =8
+
+            Rectangle6_9 As rectangle:
+                BorderColor: =RGBA(149, 149, 149, 1)
+                BorderThickness: =2
+                Fill: =RGBA(0, 0, 0, 0)
+                Height: =452
+                Width: =568
+                X: =708
+                Y: =88
+                ZIndex: =9
+
+            CompositePieChart1 As group:
+                Height: =5
+                Width: =5
+                X: =40
+                Y: =40
+                ZIndex: =10
+
+                Title2 As label:
+                    Align: =Align.Center
+                    Height: =24
+                    Text: ="Chart Title"
+                    Width: =560
+                    X: =70
+                    Y: =112
+                    ZIndex: =11
+
+                PieChart1 As pieChart:
+                    Height: =327
+                    Items: =PieChartSample
+                    Width: =358
+                    X: =288
+                    Y: =213
+                    ZIndex: =12
+
+                Legend1 As legend:
+                    Height: =378
+                    ItemColorSet: =PieChart1.ItemColorSet
+                    Items: =PieChart1.SeriesLabels
+                    Size: =16
+                    Width: =202
+                    X: =70
+                    Y: =162
+                    ZIndex: =13
+
+            CompositeColumnChart1 As group:
+                Height: =5
+                Width: =5
+                X: =40
+                Y: =40
+                ZIndex: =14
+
+                Title3 As label:
+                    Align: =Align.Center
+                    Height: =21
+                    Text: ="Chart Title"
+                    Width: =568
+                    X: =708
+                    Y: =112
+                    ZIndex: =15
+
+                ColumnChart2 As barChart:
+                    Height: =330
+                    Items: =ColumnChartSample
+                    Width: =568
+                    X: =708
+                    Y: =137
+                    ZIndex: =16
+
+                Legend2 As legend:
+                    Height: =66
+                    ItemColorSet: =ColumnChart2.ItemColorSet
+                    Items: =ColumnChart2.SeriesLabels
+                    Width: =455
+                    X: =765
+                    Y: =474
+                    ZIndex: =17
+
+            Label22_1 As label:
+                Fill: =RGBA(226, 223, 218, 1)
+                FontWeight: =FontWeight.Semibold
+                Height: =38
+                Text: ="Quality"
+                Width: =78
+                X: =740
+                Y: =70
+                ZIndex: =18
+
+            Label22 As label:
+                Fill: =RGBA(226, 223, 218, 1)
+                FontWeight: =FontWeight.Semibold
+                Height: =38
+                Text: |-
+                    ="Safety
+                    "
+                Width: =66
+                X: =100
+                Y: =70
+                ZIndex: =19
+
+        DataCard2 As dataCard.blankCard:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderStyle: =BorderStyle.Solid
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(226, 223, 218, 1)
+            Height: =608
+            Width: =1366
+            X: =0
+            Y: =1
+            ZIndex: =2
+
+            Rectangle6_10 As rectangle:
+                BorderColor: =RGBA(149, 149, 149, 1)
+                BorderThickness: =2
+                Fill: =RGBA(0, 0, 0, 0)
+                Height: =512
+                Width: =1278
+                X: =40
+                Y: =40
+                ZIndex: =1
+
+            Rectangle6_11 As rectangle:
+                BorderColor: =RGBA(149, 149, 149, 1)
+                BorderThickness: =2
+                Fill: =RGBA(0, 0, 0, 0)
+                Height: =452
+                Width: =576
+                X: =73
+                Y: =72
+                ZIndex: =2
+
+            Rectangle6_12 As rectangle:
+                BorderColor: =RGBA(149, 149, 149, 1)
+                BorderThickness: =2
+                Fill: =RGBA(0, 0, 0, 0)
+                Height: =452
+                Width: =568
+                X: =711
+                Y: =70
+                ZIndex: =3
+
+            CompositeLineChart1 As group:
+                Height: =5
+                Width: =5
+                X: =-20
+                Y: =-34
+                ZIndex: =4
+
+                Title4 As label:
+                    Align: =Align.Center
+                    Height: =24
+                    Text: ="Chart Title"
+                    Width: =554
+                    X: =95
+                    Y: =100
+                    ZIndex: =5
+
+                LineChart2 As lineChart:
+                    Font: =Font.'Open Sans'
+                    Height: =392
+                    Items: =LineChartSample
+                    Width: =554
+                    X: =95
+                    Y: =130
+                    ZIndex: =6
+
+                Legend3 As legend:
+                    Height: =78
+                    ItemColorSet: =LineChart2.ItemColorSet
+                    Items: =LineChart2.SeriesLabels
+                    Width: =443
+                    X: =151
+                    Y: =100
+                    ZIndex: =7
+
+            CompositePieChart2 As group:
+                Height: =5
+                Width: =5
+                X: =60
+                Y: =60
+                ZIndex: =8
+
+                Title5 As label:
+                    Align: =Align.Center
+                    Height: =17
+                    Text: ="Chart Title"
+                    Width: =568
+                    X: =711
+                    Y: =100
+                    ZIndex: =9
+
+                PieChart2 As pieChart:
+                    Height: =268
+                    Items: =PieChartSample
+                    Width: =340
+                    X: =715
+                    Y: =254
+                    ZIndex: =10
+
+                Legend4 As legend:
+                    Height: =380
+                    ItemColorSet: =PieChart2.ItemColorSet
+                    Items: =PieChart2.SeriesLabels
+                    Size: =16
+                    Width: =190
+                    X: =1089
+                    Y: =141
+                    ZIndex: =11
+
+            Label22_2 As label:
+                Fill: =RGBA(226, 223, 218, 1)
+                FontWeight: =FontWeight.Semibold
+                Height: =50
+                Text: ="Performance"
+                Width: =124
+                X: =100
+                Y: =48
+                ZIndex: =12
+
+            Label22_3 As label:
+                Fill: =RGBA(226, 223, 218, 1)
+                FontWeight: =FontWeight.Semibold
+                Height: =38
+                Text: ="Cost"
+                Width: =60
+                X: =735
+                Y: =53
+                ZIndex: =13
+
+        DataCard7 As dataCard.blankCard:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderStyle: =BorderStyle.Solid
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(226, 223, 218, 1)
+            Height: =685
+            Width: =1366
+            X: =0
+            Y: =2
+            ZIndex: =3
+
+            Rectangle6_15 As rectangle:
+                BorderColor: =RGBA(149, 149, 149, 1)
+                BorderThickness: =2
+                Fill: =RGBA(0, 0, 0, 0)
+                Height: =512
+                Width: =1278
+                X: =40
+                Y: =40
+                ZIndex: =1
+
+            Rectangle6_16 As rectangle:
+                BorderColor: =RGBA(149, 149, 149, 1)
+                BorderThickness: =2
+                Fill: =RGBA(0, 0, 0, 0)
+                Height: =452
+                Width: =576
+                X: =73
+                Y: =72
+                ZIndex: =2
+
+            Rectangle6_17 As rectangle:
+                BorderColor: =RGBA(149, 149, 149, 1)
+                BorderThickness: =2
+                Fill: =RGBA(0, 0, 0, 0)
+                Height: =452
+                Width: =568
+                X: =711
+                Y: =70
+                ZIndex: =3
+
+            Label22_4 As label:
+                Fill: =RGBA(226, 223, 218, 1)
+                FontWeight: =FontWeight.Semibold
+                Height: =50
+                Text: ="Schedule"
+                Width: =95
+                X: =100
+                Y: =49
+                ZIndex: =4
+
+            Label22_5 As label:
+                Fill: =RGBA(226, 223, 218, 1)
+                FontWeight: =FontWeight.Semibold
+                Height: =38
+                Text: ="People"
+                Width: =70
+                X: =735
+                Y: =53
+                ZIndex: =5
+
+            Button15 As button:
+                Fill: =RGBA(255, 0, 0, 1)
+                Text: ="Export"
+                Tooltip: ="Export"
+                X: =1158
+                Y: =604
+                ZIndex: =6
+
+    Rectangle1_36 As rectangle:
+        Fill: =RGBA(226, 223, 218, 1)
+        Height: =76
+        Width: =1366
+        ZIndex: =4
+
+    Image1_17 As image:
+        Height: =76
+        Image: ='MicrosoftTeams-image (2)'
+        Width: =119
+        X: =28
+        ZIndex: =5
+
+    Label1_24 As label:
+        Align: =Align.Center
+        Font: =Font.'Lato Black'
+        Height: =76
+        Size: =30
+        Text: ="Digital Performance Management System"
+        Width: =1219
+        X: =73
+        ZIndex: =6
+
+    Rectangle1_40 As rectangle:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        BorderThickness: =1
+        Fill: =RGBA(226, 223, 218, 1)
+        Height: =60
+        Width: =1366
+        Y: =123
+        ZIndex: =7
+
+    Dropdown1_27 As dropdown:
+        BorderColor: =RGBA(166, 166, 166, 1)
+        ChevronBackground: =RGBA(149, 149, 149, 1)
+        ChevronHoverBackground: =ColorFade(RGBA(242, 19, 19, 1), -20%)
+        Fill: =RGBA(219, 219, 219, 1)
+        Font: =Font.'Lato Black'
+        Height: =26
+        Items: =Friday_Demolist
+        SelectionFill: =RGBA(242, 19, 19, 1)
+        Width: =170
+        X: =1180
+        Y: =12
+        ZIndex: =8
+
+    Label2_15 As label:
+        FontWeight: =FontWeight.Semibold
+        Height: =22
+        Text: ="Admin"
+        Width: =137
+        X: =1182
+        Y: =46
+        ZIndex: =9
+
+    Label3_14 As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Semibold
+        Height: =41
+        Size: =15
+        Text: =App.ActiveScreen.Name
+        Width: =388
+        X: =27
+        Y: =131
+        ZIndex: =10
+
+    DatePicker1_13 As datepicker:
+        BorderColor: =RGBA(116, 116, 116, 1)
+        Fill: =RGBA(219, 219, 219, 1)
+        Height: =30
+        IconBackground: =RGBA(149, 149, 149, 1)
+        Width: =265
+        X: =671
+        Y: =139
+        ZIndex: =11
+
+    Dropdown1_32 As dropdown:
+        BorderColor: =RGBA(128, 128, 128, 1)
+        ChevronBackground: =RGBA(149, 149, 149, 1)
+        ChevronHoverBackground: =ColorFade(RGBA(242, 19, 19, 1), -20%)
+        Fill: =RGBA(219, 219, 219, 1)
+        Height: =30
+        HoverColor: =RGBA(242, 19, 19, 1)
+        Items: =Friday_Demolist
+        SelectionFill: =RGBA(242, 19, 19, 1)
+        Width: =246
+        X: =936
+        Y: =139
+        ZIndex: =12
+
+    Button1_13 As button:
+        Color: =RGBA(237, 237, 237, 1)
+        Fill: =RGBA(255, 0, 0, 1)
+        Height: =20
+        HoverFill: =ColorFade(RGBA(242, 19, 19, 1), -20%)
+        RadiusBottomLeft: =5
+        RadiusBottomRight: =5
+        RadiusTopLeft: =5
+        RadiusTopRight: =5
+        Size: =10
+        Text: ="Search"
+        Width: =88
+        X: =1240
+        Y: =147
+        ZIndex: =13
+
+    "'Nav_bar_horizontal comp_16' As 'Nav_bar_horizontal comp'":
+        Y: =77
+        ZIndex: =15
+
